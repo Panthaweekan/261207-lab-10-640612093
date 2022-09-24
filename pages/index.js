@@ -64,7 +64,7 @@ export default function Home() {
   }, [roomId]);
 
   return (
-    <div>
+    <div style={{ textAlign: "center" }}>
       <p>Public Chat Room 😇</p>
       <button onClick={getRooms}>Connect ✅</button>
 
